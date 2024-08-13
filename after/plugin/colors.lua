@@ -1,6 +1,5 @@
-function ColorMyPencils(color)
-vim.keymap.set("n", "<C-n">, ui.nav_file(1) end)
 
+function ColorMyPencils(color)
 	color = color or "rose-pine"
 	vim.cmd.colorscheme(color)
 
@@ -9,4 +8,3 @@ vim.keymap.set("n", "<C-n">, ui.nav_file(1) end)
 end
 
 ColorMyPencils()
-
